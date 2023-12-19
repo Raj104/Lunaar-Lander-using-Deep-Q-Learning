@@ -28,13 +28,13 @@ After setting up the environment, you can run the code using the following comma
    ```bash
    python train.py
    ```
-   [![Training Lunar Lander]](./videos/training.mp4)
+   ![Training Lunar Lander](./videos/training.mp4)
 
 - **Testing Script:**
    ```bash
    python test.py
    ```
-[![Testing Lunar Lander]](./videos/testing.mp4)
+   ![Testing Lunar Lander](./videos/testing.mp4)
 
 
 ### Lunar Lander Environment
@@ -104,7 +104,7 @@ The trained Q-network's weights are saved to a file (`lunar_lander_dqn.pth`). Th
 The main testing loop iterates over episodes, each consisting of interacting with the environment and storing the total reward obtained. The trained Q-network's weights are loaded from the file (`lunar_lander_dqn.pth`).
 
 ### Results
-[![Lunar Lander]](./videos/rl-video-episode-2000.mp4)
+![Lunar Lander](./videos/rl-video-episode-2000.mp4)
 
 The agent was able to solve the environment in 1,000 episodes, obtaining an average reward of 258 over 100 consecutive episodes. The plot below shows the rewards obtained in each episode during training.
 
